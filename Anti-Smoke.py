@@ -62,4 +62,7 @@ while True:
             continue
 
         if pm.read_longlong(Entity + m_bDidSmokeEffect) == 0:
+
             pm.write_longlong(Entity + m_bDidSmokeEffect, 1)
+
+    time.sleep(0.01)
